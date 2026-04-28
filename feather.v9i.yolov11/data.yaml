@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Chrysolophus amherstiae', 'Chrysolophus pictus feather', 'Phasianus Colchicus', 'Reeves-s Pheasant']
+
+roboflow:
+  workspace: project-obsu8
+  project: feather-svapn
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-obsu8/feather-svapn/dataset/9
